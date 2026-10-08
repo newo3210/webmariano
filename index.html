@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mariano</title>
+    <meta
+      name="description"
+      content=""
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Syne:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Scrollable center - behind side columns, with its own internal planes -->
+    <main class="page">
+      <!-- Sticky brand - stays in header for the whole page scroll -->
+      <header class="site-brand" id="umbral">
+        <p class="eyebrow site-brand__eyebrow">Montini</p>
+        <h1 class="brand">Mariano</h1>
+      </header>
+
+      <!-- Hero media - spaced below the title, no overlap -->
+      <section class="hero">
+        <div class="hero__stage">
+          <span class="hero__ghost" aria-hidden="true">Planos</span>
+          <figure class="hero-video">
+            <video
+              class="hero-video__media"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="design/vids/mm1-poster.jpg"
+            >
+              <source src="design/vids/mm1.mp4" type="video/mp4" />
+            </video>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Formación - crypto-style expandable ledger -->
+      <section class="section section--ledger" id="formacion">
+        <div class="ledger-pin">
+          <div class="ledger ledger-stage">
+            <header class="ledger__head">
+              <h2 class="ledger__title">Formación académica y estudios</h2>
+            </header>
+
+            <ul class="token-list" data-accordion="formacion" data-ledger-list>
+              <li class="token-item" data-ledger-item>
+                <button
+                  class="token-row"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="form-1"
+                >
+                  <span class="token-avatar" data-tone="cyan">RW</span>
+                  <span class="token-main">
+                    <span class="token-name"
+                      >Diplomado en Desarrollo Web Full Stack con React JS</span
+                    >
+                    <span class="token-meta"
+                      >Centro de e-Learning UTN FRBA – Facultad Regional Buenos
+                      Aires</span
+                    >
+                  </span>
+                  <span class="token-status token-status--live">En curso</span>
+                  <span class="token-chevron" aria-hidden="true"></span>
+                </button>
+                <div class="token-panel" id="form-1" hidden>
+                  <p>
+                    Enfoque: Frontend con React, Backend en Node.js/Express, bases
+                    de datos SQL/NoSQL e integración de APIs.
+                  </p>
+                </div>
+              </li>
+
+              <li class="token-item" data-ledger-item>
+                <button
+                  class="token-row"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="form-2"
+                >
+                  <span class="token-avatar" data-tone="lime">AI</span>
+                  <span class="token-main">
+                    <span class="token-name"
+                      >Diplomado Internacional en Consultoría en Inteligencia
+                      Artificial, Automatizaciones y Agentes IA</span
+                    >
+                    <span class="token-meta"
+                      >Greentech / European Open Business School</span
+                    >
+                  </span>
+                  <span class="token-status token-status--live">En curso</span>
+                  <span class="token-chevron" aria-hidden="true"></span>
+                </button>
+                <div class="token-panel" id="form-2" hidden>
+                  <p>
+                    Enfoque: Consultoría estratégica, orquestación de agentes
+                    autónomos, modelos predictivos y optimización de procesos.
+                  </p>
+                </div>
+              </li>
+
+              <li class="token-item" data-ledger-item>
+                <button
+                  class="token-row"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="form-3"
+                >
+                  <span class="token-avatar" data-tone="gold">SN</span>
+                  <span class="token-main">
+                    <span class="token-name"
+                      >Intensivo de Formación Técnica para Espacios Culturales:
+                      Sonido en vivo</span
+                    >
+                    <span class="token-meta"
+                      >Secretaría de Cultura de la Nación – Programa Territorio de
+                      Saberes</span
+                    >
+                  </span>
+                  <span class="token-status">Mayo 2026</span>
+                  <span class="token-chevron" aria-hidden="true"></span>
+                </button>
+                <div class="token-panel" id="form-3" hidden>
+                  <p>
+                    Duración: 16 horas acreditadas sobre acústica de salas,
+                    consolas y calibración de sonido.
+                  </p>
+                </div>
+              </li>
+
+              <li class="token-item" data-ledger-item>
+                <button
+                  class="token-row"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="form-4"
+                >
+                  <span class="token-avatar" data-tone="green">AG</span>
+                  <span class="token-main">
+                    <span class="token-name"
+                      >Diplomado en Agroecología, Soberanía Alimentaria y
+                      Políticas Públicas</span
+                    >
+                    <span class="token-meta"
+                      >Universidad Nacional de la Patagonia San Juan Bosco</span
+                    >
+                  </span>
+                  <span class="token-status">2020 — 2021</span>
+                  <span class="token-chevron" aria-hidden="true"></span>
+                </button>
+                <div class="token-panel" id="form-4" hidden>
+                  <p>
+                    Carga horaria: 190 horas de investigación y modelado de datos
+                    territoriales.
+                  </p>
+                </div>
+              </li>
+
+              <li class="token-item" data-ledger-item>
+                <button
+                  class="token-row"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="form-5"
+                >
+                  <span class="token-avatar" data-tone="magenta">PM</span>
+                  <span class="token-main">
+                    <span class="token-name">Diseño en Permacultura</span>
+                    <span class="token-meta"
+                      >Universidad Internacional de Permacultura (Gaia,
+                      Navarro)</span
+                    >
+                  </span>
+                  <span class="token-status">10 años</span>
+                  <span class="token-chevron" aria-hidden="true"></span>
+                </button>
+                <div class="token-panel" id="form-5" hidden>
+                  <p>
+                    Trayecto de 10 años de estudio y práctica aplicada en
+                    planificación de sistemas y resiliencia ecológica.
+                  </p>
+                </div>
+              </li>
+
+              <li class="token-item" data-ledger-item>
+                <button
+                  class="token-row"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="form-6"
+                >
+                  <span class="token-avatar" data-tone="silver">PC</span>
+                  <span class="token-main">
+                    <span class="token-name"
+                      >Formación Técnica en Ensamblaje y Reparación de PC</span
+                    >
+                    <span class="token-meta"
+                      >Certificación Técnica de Especialización</span
+                    >
+                  </span>
+                  <span class="token-status">1999</span>
+                  <span class="token-chevron" aria-hidden="true"></span>
+                </button>
+                <div class="token-panel" id="form-6" hidden>
+                  <p>
+                    Base técnica fundacional: hardware, diagnóstico y reparación —
+                    el primer protocolo de sistemas.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rubros - folder carousel + revealable ledger -->
+      <!-- Rubros - folder cards flip like naipes on scroll -->
+      <section class="section section--rubros" id="rubros">
+        <div class="folders-pin">
+          <div class="folders-stage">
+            <div class="folder-rail" role="list" aria-label="Rubros de trabajo">
+              <button
+                class="folder"
+                type="button"
+                role="listitem"
+                data-folder="prensa"
+                data-folder-card
+                aria-pressed="false"
+                data-tone="cyan"
+              >
+                <span class="folder__flip">
+                  <span class="folder__face folder__face--back" aria-hidden="true"></span>
+                  <span class="folder__face folder__face--front">
+                    <span class="folder__glow"></span>
+                    <img
+                      class="folder__icon"
+                      src="design/images/prensaicon.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <span class="folder__label"
+                      >Dirección de Prensa<br /><small
+                        >Municipio de Epuyén</small
+                      ></span
+                    >
+                  </span>
+                </span>
+              </button>
+
+              <button
+                class="folder"
+                type="button"
+                role="listitem"
+                data-folder="web3"
+                data-folder-card
+                aria-pressed="false"
+                data-tone="magenta"
+              >
+                <span class="folder__flip">
+                  <span class="folder__face folder__face--back" aria-hidden="true"></span>
+                  <span class="folder__face folder__face--front">
+                    <span class="folder__glow"></span>
+                    <img
+                      class="folder__icon"
+                      src="design/images/protocolicon.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <span class="folder__label"
+                      >Arquitecto de Protocolos<br /><small
+                        >Web3 &amp; IA</small
+                      ></span
+                    >
+                  </span>
+                </span>
+              </button>
+
+              <button
+                class="folder"
+                type="button"
+                role="listitem"
+                data-folder="bosque"
+                data-folder-card
+                aria-pressed="false"
+                data-tone="lime"
+              >
+                <span class="folder__flip">
+                  <span class="folder__face folder__face--back" aria-hidden="true"></span>
+                  <span class="folder__face folder__face--front">
+                    <span class="folder__glow"></span>
+                    <img
+                      class="folder__icon"
+                      src="design/images/bosqueicon.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <span class="folder__label"
+                      >Bosquegracias<br /><small
+                        >Dirección e infraestructura</small
+                      ></span
+                    >
+                  </span>
+                </span>
+              </button>
+
+              <button
+                class="folder"
+                type="button"
+                role="listitem"
+                data-folder="arte"
+                data-folder-card
+                aria-pressed="false"
+                data-tone="gold"
+              >
+                <span class="folder__flip">
+                  <span class="folder__face folder__face--back" aria-hidden="true"></span>
+                  <span class="folder__face folder__face--front">
+                    <span class="folder__glow"></span>
+                    <img
+                      class="folder__icon"
+                      src="design/images/sonidoicon.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <span class="folder__label"
+                      >Arte y Música<br /><small>Experimental</small></span
+                    >
+                  </span>
+                </span>
+              </button>
+
+              <button
+                class="folder"
+                type="button"
+                role="listitem"
+                data-folder="hardware"
+                data-folder-card
+                aria-pressed="false"
+                data-tone="orange"
+              >
+                <span class="folder__flip">
+                  <span class="folder__face folder__face--back" aria-hidden="true"></span>
+                  <span class="folder__face folder__face--front">
+                    <span class="folder__glow"></span>
+                    <img
+                      class="folder__icon"
+                      src="design/images/webicon.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <span class="folder__label"
+                      >Hardware y soporte<br /><small
+                        >Ensamble &amp; reparación</small
+                      ></span
+                    >
+                  </span>
+                </span>
+              </button>
+            </div>
+
+            <!-- Folder detail ledger - invisible until a folder is selected -->
+            <div
+              class="folder-detail"
+              id="folder-detail"
+              hidden
+              aria-live="polite"
+            >
+              <header class="folder-detail__head">
+                <p class="ledger__kicker" id="folder-detail-kicker">
+                  Selected folder
+                </p>
+                <h3 class="folder-detail__title" id="folder-detail-title"></h3>
+              </header>
+              <ul
+                class="token-list"
+                id="folder-detail-list"
+                data-accordion="rubro"
+              ></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Living gallery - two pinned bio duos (phrase reveal) -->
+      <section class="section section--gallery" id="memoria">
+        <div class="bio-duo-pin">
+          <div class="bio-duo">
+            <figure class="bio-duo__media">
+              <video
+                class="bio-duo__video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+              >
+                <source src="design/vids/marianito.mp4" type="video/mp4" />
+              </video>
+            </figure>
+            <p class="bio-duo__copy body-copy--title" aria-label="Bio">
+              <span class="bio-duo__phrase">Con más de dos décadas cruzando desarrollo tecnológico,</span>
+              <span class="bio-duo__phrase">ingeniería de sistemas y producción artística.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Specialty duo - pantallas video + second bio phrases -->
+      <section class="section section--focus" id="especialidad">
+        <div class="bio-duo-pin">
+          <div class="bio-duo">
+            <figure class="bio-duo__media">
+              <video
+                class="bio-duo__video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+              >
+                <source src="design/vids/pantallas.mp4" type="video/mp4" />
+              </video>
+            </figure>
+            <p class="bio-duo__copy body-copy--title" aria-label="Especialidad">
+              <span class="bio-duo__phrase">Especializado en arquitecturas descentralizadas Web3,</span>
+              <span class="bio-duo__phrase">orquestación de Inteligencia Artificial</span>
+              <span class="bio-duo__phrase">y comunicación institucional pública.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tecnología ↔ Naturaleza - sticky; image scrubs horizontally into video -->
+      <section class="section section--planes" id="planos">
+        <div class="nature-pin">
+          <div class="nature-stage">
+            <h2 class="headline headline--gradient nature-stage__title">
+              Tecnología ↔ Naturaleza
+            </h2>
+            <div class="nature-viewport">
+              <div class="nature-track" data-nature-track>
+                <figure class="nature-slide nature-slide--void" aria-hidden="true"></figure>
+                <figure class="nature-slide">
+                  <img
+                    src="design/images/machinenature.png"
+                    alt="Tecnología y naturaleza"
+                    loading="lazy"
+                  />
+                </figure>
+                <figure class="nature-slide nature-slide--video">
+                  <video
+                    class="nature-shot__video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                  >
+                    <source
+                      src="design/vids/probandofuego%203.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Protocols - sticky stage; title parallax + video scrubbed by scroll -->
+      <section class="section section--protocols" id="protocolos">
+        <div class="protocols-pin">
+          <div class="protocols-stage">
+            <h2 class="protocols__title" data-protocols-parallax>
+              Protocolos que respiran
+            </h2>
+            <div class="protocols__materials">
+              <figure class="protocols__shot">
+                <video
+                  class="protocols__video"
+                  data-protocols-scrub
+                  muted
+                  playsinline
+                  preload="auto"
+                  aria-label="Reveal de protocolos animado con el scroll"
+                >
+                  <source
+                    src="design/vids/revealprotocol.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scroll filler - extra vertical length to test column parallax depth -->
+      <section class="section section--scroll-lab" id="scroll-lab" aria-hidden="true">
+        <article class="filler filler--wide" data-fade-parallax>
+          <h2 class="filler__title" data-fp-depth="90">Armado de Hardware exigente</h2>
+          <p class="filler__text" data-fp-depth="170">
+            Modelos, tools, automatizaciones. No como magia: como instrumentos.
+            La IA entra al escenario igual que un sintetizador — afinada,
+            situada, al servicio del poema técnico.
+          </p>
+        </article>
+        <article class="filler filler--alt filler--video" aria-label="Armado de Hardware exigente">
+          <figure class="filler__media">
+            <video
+              class="filler__video"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+            >
+              <source src="design/vids/hardware.mp4" type="video/mp4" />
+            </video>
+          </figure>
+        </article>
+        <article class="filler filler--alt">
+          <p class="filler__mark">04 / bosquegracias</p>
+          <h2 class="filler__title">Infraestructura cultural</h2>
+          <p class="filler__text">
+            Studio, ops, brand systems. El laboratorio no es un lugar: es una
+            disciplina. Persistencia de identidad, redes, montaje. Lo que
+            sostiene lo que se ve.
+          </p>
+        </article>
+        <article class="filler">
+          <p class="filler__mark">05 / escena</p>
+          <h2 class="filler__title">Sonido / imagen / código</h2>
+          <p class="filler__text">
+            Arte experimental como plano +1. Lo que tapa también revela. Las
+            siluetas del borde no decoran: calibran la profundidad del centro.
+          </p>
+        </article>
+        <article class="filler filler--wide">
+          <p class="filler__mark">06 / nota</p>
+          <p class="filler__quote">
+            “El centro carga el relato. Los bordes respiran. El scroll mide la
+            distancia entre ambos.”
+          </p>
+        </article>
+        <article class="filler">
+          <p class="filler__mark">07 / stack</p>
+          <h2 class="filler__title">Capas en conversación</h2>
+          <p class="filler__text">
+            Z−2 atmósfera · Z0 contenido · Z+1 flora. Misma página, tiempos
+            distintos. Si la columna derecha se atrasa, el ojo entiende volumen.
+          </p>
+        </article>
+        <article class="filler filler--alt">
+          <p class="filler__mark">08 / cierre largo</p>
+          <h2 class="filler__title">Seguir el hilo</h2>
+          <p class="filler__text">
+            Material de prueba para elongar el viaje vertical. Cuando el
+            parallax se sienta bien, este bloque puede reducirse o reemplazarse
+            por proyectos reales, bitácoras y piezas en vivo.
+          </p>
+        </article>
+      </section>
+
+      <!-- Contact / close -->
+      <section class="section section--close" id="cierre">
+        <p class="eyebrow">Verso V · Cierre</p>
+        <h2 class="headline headline--cta">Sigamos el hilo.</h2>
+        <p class="body-copy body-copy--muted">
+          Del grid a la flor. De lo quieto a lo vivo. Una sola transición
+          vertical.
+        </p>
+        <a class="btn btn--light" href="mailto:hola@mariano.studio"
+          >Iniciar conversación</a
+        >
+        <p class="axis">Tech/Human ↔ Flora/Synth · Parallax</p>
+      </section>
+    </main>
+
+    <!-- Left column AFTER main so it paints above; scrolls with lag (not fixed) -->
+    <aside class="lplane" id="lplane" aria-hidden="true">
+      <div class="sideplane__stack" data-side="left"></div>
+    </aside>
+
+    <!-- Right column AFTER main so it paints above; scrolls with lag (not fixed) -->
+    <aside class="rplane" id="rplane" aria-hidden="true">
+      <div class="sideplane__stack" data-side="right"></div>
+    </aside>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,3942 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "eNvLG",
+      "x": 0,
+      "y": 0,
+      "name": "Mariano — Vertical Web",
+      "clip": true,
+      "width": 1440,
+      "height": 5600,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 270,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#122A48",
+            "position": 0
+          },
+          {
+            "color": "#0A1628",
+            "position": 0.1
+          },
+          {
+            "color": "#071018",
+            "position": 0.2
+          },
+          {
+            "color": "#050505",
+            "position": 0.35
+          },
+          {
+            "color": "#050505",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "YnpMn",
+          "x": 0,
+          "y": 0,
+          "name": "Edge Tech Grid L",
+          "opacity": 0.28,
+          "width": 340,
+          "height": 5600,
+          "fill": "#00000000",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "XM3oF",
+              "x": 0,
+              "y": 0,
+              "name": "Navy grid field",
+              "fill": "#122A48",
+              "width": 200,
+              "height": 5600
+            },
+            {
+              "type": "line",
+              "id": "xLI8k",
+              "x": 16,
+              "y": 80,
+              "name": "H-grid 0",
+              "width": 160,
+              "height": 0,
+              "stroke": "#A8C4D944",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "IcEty",
+              "x": 16,
+              "y": 270,
+              "name": "H-grid 1",
+              "width": 160,
+              "height": 0,
+              "stroke": "#A8C4D944",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "QP7O2",
+              "x": 16,
+              "y": 460,
+              "name": "H-grid 2",
+              "width": 160,
+              "height": 0,
+              "stroke": "#A8C4D944",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "pgYCT",
+              "x": 16,
+              "y": 650,
+              "name": "H-grid 3",
+              "width": 160,
+              "height": 0,
+              "stroke": "#A8C4D944",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "f9kyq",
+              "x": 16,
+              "y": 840,
+              "name": "H-grid 4",
+              "width": 160,
+              "height": 0,
+              "stroke": "#A8C4D944",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "TdQuL",
+              "x": 16,
+              "y": 1030,
+              "name": "H-grid 5",
+              "width": 160,
+              "height": 0,
+              "stroke": "#A8C4D944",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "DY7bh",
+              "x": 16,
+              "y": 1220,
+              "name": "H-grid 6",
+              "width": 160,
+              "height": 0,
+              "stroke": "#A8C4D944",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "uKWJr",
+              "x": 16,
+              "y": 1410,
+              "name": "H-grid 7",
+              "width": 160,
+              "height": 0,
+              "stroke": "#A8C4D944",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "MqiyD",
+              "x": 16,
+              "y": 1600,
+              "name": "H-grid 8",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "ip5O7",
+              "x": 16,
+              "y": 1790,
+              "name": "H-grid 9",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "nGkw7",
+              "x": 16,
+              "y": 1980,
+              "name": "H-grid 10",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "C4cm5m",
+              "x": 16,
+              "y": 2170,
+              "name": "H-grid 11",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "d094j",
+              "x": 16,
+              "y": 2360,
+              "name": "H-grid 12",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "uP21a",
+              "x": 16,
+              "y": 2550,
+              "name": "H-grid 13",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "mPxT1",
+              "x": 16,
+              "y": 2740,
+              "name": "H-grid 14",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "VHiMS",
+              "x": 16,
+              "y": 2930,
+              "name": "H-grid 15",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "lSWF2",
+              "x": 16,
+              "y": 3120,
+              "name": "H-grid 16",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "uOSEF",
+              "x": 16,
+              "y": 3310,
+              "name": "H-grid 17",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "e2FRdE",
+              "x": 16,
+              "y": 3500,
+              "name": "H-grid 18",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "fY8at",
+              "x": 16,
+              "y": 3690,
+              "name": "H-grid 19",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "Za0yj",
+              "x": 16,
+              "y": 3880,
+              "name": "H-grid 20",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "EL7VT",
+              "x": 16,
+              "y": 4070,
+              "name": "H-grid 21",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "M1uc6M",
+              "x": 16,
+              "y": 4260,
+              "name": "H-grid 22",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "S9XrB",
+              "x": 16,
+              "y": 4450,
+              "name": "H-grid 23",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "rwdPI",
+              "x": 16,
+              "y": 4640,
+              "name": "H-grid 24",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "NCruG",
+              "x": 16,
+              "y": 4830,
+              "name": "H-grid 25",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "iROd4",
+              "x": 16,
+              "y": 5020,
+              "name": "H-grid 26",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "QV2pi",
+              "x": 16,
+              "y": 5210,
+              "name": "H-grid 27",
+              "width": 160,
+              "height": 0,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "MAcHi",
+              "x": 24,
+              "y": 60,
+              "name": "V-grid 0",
+              "width": 0,
+              "height": 5400,
+              "stroke": "#A8C4D933",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "MGdF1",
+              "x": 60,
+              "y": 60,
+              "name": "V-grid 1",
+              "width": 0,
+              "height": 5400,
+              "stroke": "#A8C4D933",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "fUgWw",
+              "x": 96,
+              "y": 60,
+              "name": "V-grid 2",
+              "width": 0,
+              "height": 5400,
+              "stroke": "#A8C4D933",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "j9Jvnt",
+              "x": 132,
+              "y": 60,
+              "name": "V-grid 3",
+              "width": 0,
+              "height": 5400,
+              "stroke": "#A8C4D933",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "id": "rns3D",
+              "x": 168,
+              "y": 60,
+              "name": "V-grid 4",
+              "width": 0,
+              "height": 5400,
+              "stroke": "#A8C4D933",
+              "strokeWidth": 1
+            },
+            {
+              "type": "ellipse",
+              "id": "t1AqR",
+              "x": 21,
+              "y": 267,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "vdeVF",
+              "x": 57,
+              "y": 457,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "hYg8V",
+              "x": 93,
+              "y": 837,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "oWpO0",
+              "x": 129,
+              "y": 1217,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "YGJJr",
+              "x": 45,
+              "y": 1797,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "XKunN",
+              "x": 93,
+              "y": 2397,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "ZNLws",
+              "x": 57,
+              "y": 3097,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "ljFaV",
+              "x": 117,
+              "y": 3797,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "dYsNK",
+              "x": 33,
+              "y": 4497,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "VVBwr",
+              "x": 93,
+              "y": 5097,
+              "name": "Grid node",
+              "fill": "#FFFFFF44",
+              "width": 6,
+              "height": 6
+            },
+            {
+              "type": "ellipse",
+              "id": "jL3hb",
+              "x": 48,
+              "y": 5280,
+              "name": "Human-tech silhouette",
+              "fill": "#00000000",
+              "width": 56,
+              "height": 70,
+              "stroke": "#C8D0D866",
+              "strokeWidth": 1.2,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#6FA8C455",
+                "blur": 10
+              }
+            },
+            {
+              "type": "text",
+              "id": "pZQyi",
+              "x": 18,
+              "y": 200,
+              "name": "Axis label",
+              "fill": "#FFFFFF55",
+              "content": "TECH / HUMAN",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 9,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            },
+            {
+              "type": "rectangle",
+              "id": "mf1R4",
+              "x": 80,
+              "y": 0,
+              "name": "Grid→Black fade",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 270,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#122A48",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0D1F38",
+                    "position": 0.18
+                  },
+                  {
+                    "color": "#0A1628",
+                    "position": 0.38
+                  },
+                  {
+                    "color": "#071018",
+                    "position": 0.58
+                  },
+                  {
+                    "color": "#050505",
+                    "position": 0.82
+                  },
+                  {
+                    "color": "#050505",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 280,
+              "height": 5600
+            },
+            {
+              "type": "path",
+              "id": "YwjOj",
+              "x": 40,
+              "y": 80,
+              "name": "Circuit spine L",
+              "geometry": "M20 0l0 180 60 40 0 180-50 60 0 240 60 60 0 140",
+              "fill": "#00000000",
+              "width": 120,
+              "height": 900,
+              "stroke": "$glow",
+              "strokeWidth": 1.5,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#6FA8C488",
+                "blur": 12
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "BzTxb",
+              "x": 70,
+              "y": 210,
+              "name": "Node L1",
+              "fill": "$glow",
+              "width": 14,
+              "height": 14,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#6FA8C4AA",
+                "blur": 16
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "JhMdC",
+              "x": 20,
+              "y": 450,
+              "name": "Node L2",
+              "fill": "$gold",
+              "width": 10,
+              "height": 10,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#C9A46A99",
+                "blur": 14
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "NgUvl",
+              "x": 80,
+              "y": 750,
+              "name": "Node L3",
+              "fill": "$silver",
+              "width": 12,
+              "height": 12,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#C8D0D888",
+                "blur": 12
+              }
+            },
+            {
+              "type": "path",
+              "id": "XojFW",
+              "x": 20,
+              "y": 1400,
+              "name": "Circuit mid L",
+              "geometry": "M10 0l0 200 90 60 0 260-60 80 0 300 80 80 0 120",
+              "fill": "#00000000",
+              "width": 160,
+              "height": 1100,
+              "stroke": "$gold",
+              "strokeWidth": 1.2,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#C9A46A66",
+                "blur": 10
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "n9Mb3z",
+              "x": 90,
+              "y": 1650,
+              "name": "Node L4",
+              "fill": "$gold",
+              "width": 11,
+              "height": 11,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#C9A46AAA",
+                "blur": 14
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "RWuu1",
+              "x": 30,
+              "y": 2280,
+              "name": "Node L5",
+              "fill": "$glow",
+              "width": 9,
+              "height": 9,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#6FA8C499",
+                "blur": 12
+              }
+            },
+            {
+              "type": "path",
+              "id": "EZC5b",
+              "x": 30,
+              "y": 3200,
+              "name": "Circuit low L",
+              "geometry": "M30 0l0 300 60 80 0 320-70 100 0 300 80 100 0 200",
+              "fill": "#00000000",
+              "width": 140,
+              "height": 1400,
+              "stroke": "$silver",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#C8D0D866",
+                "blur": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "M3ath",
+          "x": 1140,
+          "y": 0,
+          "name": "Edge Flora+Circuit R",
+          "opacity": 0.12,
+          "width": 300,
+          "height": 5600,
+          "fill": "#00000000",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "CZwGp",
+              "x": 20,
+              "y": 80,
+              "name": "Flora R Hero",
+              "enabled": false,
+              "opacity": 0.9,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "refs/ref-grid-flora.png",
+                "mode": "fill"
+              },
+              "width": 280,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "YnH2B",
+              "x": 40,
+              "y": 2200,
+              "name": "Flora R Mid",
+              "enabled": false,
+              "opacity": 0.8,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "refs/ref-flora-tech.png",
+                "mode": "fill"
+              },
+              "width": 260,
+              "height": 500
+            },
+            {
+              "type": "rectangle",
+              "id": "pbUH7",
+              "x": 50,
+              "y": 4300,
+              "name": "Flora R CTA",
+              "enabled": false,
+              "opacity": 0.85,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "refs/ref-grid-flora.png",
+                "mode": "fill"
+              },
+              "width": 250,
+              "height": 480
+            },
+            {
+              "type": "path",
+              "id": "TrVat",
+              "x": 120,
+              "y": 200,
+              "name": "Circuit spine R",
+              "geometry": "M100 0l0 220-60 60 0 240 70 80 0 220-60 80 0 100",
+              "fill": "#00000000",
+              "width": 140,
+              "height": 1000,
+              "stroke": "$gold",
+              "strokeWidth": 1.5,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#C9A46A88",
+                "blur": 12
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "HsvcQ",
+              "x": 130,
+              "y": 470,
+              "name": "Node R1",
+              "fill": "$gold",
+              "width": 13,
+              "height": 13,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#C9A46AAA",
+                "blur": 16
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "t7tAb",
+              "x": 200,
+              "y": 790,
+              "name": "Node R2",
+              "fill": "$glow",
+              "width": 10,
+              "height": 10,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#6FA8C4AA",
+                "blur": 14
+              }
+            },
+            {
+              "type": "path",
+              "id": "uKOwj",
+              "x": 100,
+              "y": 1800,
+              "name": "Circuit mid R",
+              "geometry": "M130 0l0 250-70 80 0 270 80 100 0 300-70 100 0 100",
+              "fill": "#00000000",
+              "width": 160,
+              "height": 1200,
+              "stroke": "$glow",
+              "strokeWidth": 1.2,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#6FA8C466",
+                "blur": 10
+              }
+            },
+            {
+              "type": "path",
+              "id": "IXgi3",
+              "x": 90,
+              "y": 3600,
+              "name": "Circuit low R",
+              "geometry": "M100 0l0 280-60 80 0 340 80 120 0 280-70 100",
+              "fill": "#00000000",
+              "width": 150,
+              "height": 1200,
+              "stroke": "$silver",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#C8D0D866",
+                "blur": 10
+              }
+            },
+            {
+              "type": "text",
+              "id": "Ezkof",
+              "x": 200,
+              "y": 40,
+              "name": "Nature axis",
+              "fill": "#3ECFCF88",
+              "content": "FLORA / SYNTH",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 9,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            },
+            {
+              "type": "ellipse",
+              "id": "n6RRS",
+              "x": 160,
+              "y": 5000,
+              "name": "Mesh flower glow",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#3ECFCF55",
+                    "position": 0
+                  },
+                  {
+                    "color": "#3ECFCF00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 120,
+              "height": 120,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#3ECFCF66",
+                "blur": 28
+              }
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "s5AvW",
+          "x": 280,
+          "y": 1680,
+          "name": "Glow streak 1",
+          "opacity": 0.45,
+          "rotation": -8,
+          "fill": "#6FA8C466",
+          "width": 780,
+          "height": 4,
+          "effect": {
+            "type": "blur",
+            "radius": 28
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "jZyv3",
+          "x": 300,
+          "y": 3100,
+          "name": "Glow streak 2",
+          "opacity": 0.4,
+          "rotation": 6.000000000000001,
+          "fill": "#C9A46A55",
+          "width": 700,
+          "height": 3,
+          "effect": {
+            "type": "blur",
+            "radius": 32
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "qD0Fr",
+          "x": 250,
+          "y": 4900,
+          "name": "Glow streak 3",
+          "opacity": 0.35,
+          "rotation": -5,
+          "fill": "#C8D0D844",
+          "width": 800,
+          "height": 3,
+          "effect": {
+            "type": "blur",
+            "radius": 36
+          }
+        },
+        {
+          "type": "frame",
+          "id": "T6Yddy",
+          "x": 280,
+          "y": 0,
+          "name": "Center Column",
+          "width": 880,
+          "height": 5600,
+          "fill": "#00000000",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "js0n8",
+              "name": "01 Hero",
+              "width": "fill_container",
+              "height": 1080,
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                100,
+                40,
+                72,
+                40
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qLZXi",
+                  "name": "Nav markers",
+                  "width": "fill_container",
+                  "height": 24,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZepmO",
+                      "name": "Nav I",
+                      "fill": "$muted",
+                      "content": "( I )",
+                      "fontFamily": "$fontC",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "xBlum",
+                      "name": "Nav II",
+                      "fill": "$muted",
+                      "content": "( II )",
+                      "fontFamily": "$fontC",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "m10NG",
+                      "name": "Nav III",
+                      "fill": "$muted",
+                      "content": "( III )",
+                      "fontFamily": "$fontC",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "Uejt0",
+                      "name": "Nav IV",
+                      "fill": "$muted",
+                      "content": "( IV )",
+                      "fontFamily": "$fontC",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "SfGoz",
+                  "name": "Eyebrow",
+                  "fill": "$gold",
+                  "content": "VERSO I  ·  EL UMBRAL",
+                  "textAlign": "center",
+                  "fontFamily": "$fontC",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 6
+                },
+                {
+                  "type": "text",
+                  "id": "D5urDE",
+                  "name": "Brand MARIANO",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F7F2EA",
+                        "position": 0
+                      },
+                      {
+                        "color": "#C9A46A",
+                        "position": 0.45
+                      },
+                      {
+                        "color": "#6FA8C4",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "content": "MARIANO",
+                  "textAlign": "center",
+                  "fontFamily": "$fontH",
+                  "fontSize": 96,
+                  "fontWeight": "600",
+                  "letterSpacing": 8
+                },
+                {
+                  "type": "text",
+                  "id": "zG8vD",
+                  "name": "Tagline",
+                  "fill": "$fg",
+                  "content": "Entre la grilla y la hoja.",
+                  "textAlign": "center",
+                  "fontFamily": "$fontB",
+                  "fontSize": 22,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "uqifH",
+                  "name": "Support",
+                  "fill": "$muted",
+                  "content": "A la izquierda late lo técnico. A la derecha crece lo sintético. En el centro, el relato humano.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "$fontB",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Hm4Wm",
+                  "name": "Hero video · mm1.mp4",
+                  "clip": true,
+                  "width": 720,
+                  "height": 405,
+                  "fill": "#121212",
+                  "cornerRadius": 6,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#6FA8C433",
+                    "blur": 40
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "xst2q",
+                      "x": 0,
+                      "y": 0,
+                      "name": "mm1 poster (loop in prod)",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "vids/mm1-poster.jpg",
+                        "mode": "fill"
+                      },
+                      "width": 720,
+                      "height": 405
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H4BdwO",
+                      "x": 290,
+                      "y": 170,
+                      "name": "Video alive badge",
+                      "width": 140,
+                      "height": 64,
+                      "fill": "#00000099",
+                      "cornerRadius": 40,
+                      "stroke": "#FFFFFF33",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "X7mSk",
+                          "fill": "#FF4D4D",
+                          "width": 10,
+                          "height": 10,
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#FF4D4D88",
+                            "blur": 8
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "QzocU",
+                          "fill": "$fg",
+                          "content": "LOOP",
+                          "fontFamily": "$fontC",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 3
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WOJPx",
+                  "name": "CTA row",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dtJEX",
+                      "name": "CTA primary",
+                      "fill": "$gold",
+                      "cornerRadius": 4,
+                      "gap": 10,
+                      "padding": [
+                        14,
+                        28
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EMFkD",
+                          "fill": "#0A0A0A",
+                          "content": "Explorar",
+                          "fontFamily": "$fontB",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LCUx5",
+                      "name": "CTA ghost",
+                      "fill": "#00000000",
+                      "cornerRadius": 4,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        13,
+                        26
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O74dy",
+                          "fill": "$fg",
+                          "content": "Ver planos",
+                          "fontFamily": "$fontB",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lvEPy",
+              "name": "02 Manifesto",
+              "width": "fill_container",
+              "height": 720,
+              "fill": "$burgundy",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                100,
+                64
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tmJWt",
+                  "fill": "$gold",
+                  "content": "VERSO II  ·  EL DIÁLOGO",
+                  "textAlign": "center",
+                  "fontFamily": "$fontC",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 8
+                },
+                {
+                  "type": "text",
+                  "id": "ETgMK",
+                  "name": "Manifesto title",
+                  "fill": "$fg",
+                  "content": "Donde la máquina respira verde\ny la flora aprende a brillar.",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "$fontH",
+                  "fontSize": 42,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "MQzw7",
+                  "name": "Manifesto body",
+                  "fill": "#D4C8BE",
+                  "content": "La cuadrícula no corta: se disuelve. Azul oscuro se rinde al negro. Tecnología y naturaleza no se oponen — conversan en capas, a distinta velocidad.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "$fontB",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IIoe4",
+              "name": "03 Living Gallery",
+              "width": "fill_container",
+              "height": 1400,
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                40
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MOmCn",
+                  "fill": "$glow",
+                  "content": "VERSO III  ·  LA MEMORIA VIVA",
+                  "textAlign": "center",
+                  "fontFamily": "$fontC",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 6
+                },
+                {
+                  "type": "text",
+                  "id": "Q8LvHH",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#FFFFFF",
+                        "position": 0
+                      },
+                      {
+                        "color": "#C8D0D8",
+                        "position": 0.5
+                      },
+                      {
+                        "color": "#6FA8C4",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "content": "Lo quieto despierta.",
+                  "textAlign": "center",
+                  "fontFamily": "$fontH",
+                  "fontSize": 56,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "viMdP",
+                  "fill": "$muted",
+                  "content": "Cada fotograma puede convertirse en pulso. El scroll no solo baja: revela otro plano del mismo poema.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "$fontB",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "rDLZR",
+                  "name": "Layered stack",
+                  "width": 720,
+                  "height": 900,
+                  "fill": "#00000000",
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Pgt7Q",
+                      "x": 40,
+                      "y": 180,
+                      "name": "Ghost word",
+                      "fill": "#FFFFFF0F",
+                      "content": "PLANOS",
+                      "fontFamily": "$fontH",
+                      "fontSize": 140,
+                      "fontWeight": "normal",
+                      "letterSpacing": 12
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K4teIl",
+                      "x": 80,
+                      "y": 60,
+                      "name": "Plane A photo",
+                      "clip": true,
+                      "width": 420,
+                      "height": 520,
+                      "fill": "#151515",
+                      "cornerRadius": 4,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#000000AA",
+                        "offset": {
+                          "x": 0,
+                          "y": 20
+                        },
+                        "blur": 30
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "dG25V",
+                          "x": 0,
+                          "y": 0,
+                          "fill": {
+                            "type": "image",
+                            "opacity": 0.9,
+                            "enabled": true,
+                            "url": "refs/ref-cinematic.png",
+                            "mode": "fill"
+                          },
+                          "width": 420,
+                          "height": 520
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HKQmF",
+                          "x": 16,
+                          "y": 16,
+                          "fill": "#000000AA",
+                          "cornerRadius": 4,
+                          "gap": 6,
+                          "padding": [
+                            8,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "XWBDq",
+                              "fill": "#FF4D4D",
+                              "width": 7,
+                              "height": 7
+                            },
+                            {
+                              "type": "text",
+                              "id": "lXjEP",
+                              "fill": "$fg",
+                              "content": "VIDEO",
+                              "fontFamily": "$fontC",
+                              "fontSize": 10,
+                              "fontWeight": "normal",
+                              "letterSpacing": 2
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R0YH1",
+                      "x": 360,
+                      "y": 380,
+                      "name": "Plane B inset",
+                      "clip": true,
+                      "width": 280,
+                      "height": 360,
+                      "fill": "#151515",
+                      "cornerRadius": 4,
+                      "stroke": "$gold",
+                      "strokeWidth": 1,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#C9A46A44",
+                        "offset": {
+                          "x": 0,
+                          "y": 12
+                        },
+                        "blur": 24
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "A5KrZw",
+                          "x": 0,
+                          "y": 0,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "refs/ref-dinner.png",
+                            "mode": "fill"
+                          },
+                          "width": 280,
+                          "height": 360
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "h3rm5h",
+                      "x": 360,
+                      "y": 760,
+                      "fill": "$gold",
+                      "content": "Plano +1  ·  delante del texto",
+                      "fontFamily": "$fontC",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SsDfp",
+              "name": "04 Parallax Planes",
+              "width": "fill_container",
+              "height": 980,
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                100,
+                48
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KlJoF",
+                  "fill": "$silver",
+                  "content": "VERSO IV  ·  LOS PLANOS",
+                  "textAlign": "center",
+                  "fontFamily": "$fontC",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 6
+                },
+                {
+                  "type": "text",
+                  "id": "wiwzT",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 0,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#C9A46A",
+                        "position": 0
+                      },
+                      {
+                        "color": "#F2EDE6",
+                        "position": 0.5
+                      },
+                      {
+                        "color": "#6FA8C4",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "content": "Tecnología ↔ Naturaleza",
+                  "textAlign": "center",
+                  "fontFamily": "$fontH",
+                  "fontSize": 52,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Orl75",
+                  "name": "Plane cards",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eIHgw",
+                      "width": "fill_container",
+                      "fill": "#0A0A0ACC",
+                      "cornerRadius": 8,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "r592l",
+                          "fill": "$glow",
+                          "content": "Z −2  ·  IZQUIERDA",
+                          "fontFamily": "$fontC",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "n6k46P",
+                          "fill": "$fg",
+                          "content": "Cuadrícula técnica",
+                          "fontFamily": "$fontH",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "F7ae7",
+                          "fill": "$muted",
+                          "content": "Azul oscuro → negro en gradiente. Diálogo tech/humano que nunca corta: se disuelve.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$fontB",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jcytj",
+                      "width": "fill_container",
+                      "fill": "#0A0A0ACC",
+                      "cornerRadius": 8,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Q6yAR",
+                          "fill": "$glow",
+                          "content": "Z  0  ·  CENTRO",
+                          "fontFamily": "$fontC",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "Jk9qj",
+                          "fill": "$fg",
+                          "content": "Poema en scroll",
+                          "fontFamily": "$fontH",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "v41DTr",
+                          "fill": "$muted",
+                          "content": "Versos grandes con gradiente. Montreal Neue + Messina Sans Mono.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$fontB",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b6Bbx",
+                      "width": "fill_container",
+                      "fill": "#0A0A0ACC",
+                      "cornerRadius": 8,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HOTrU",
+                          "fill": "$glow",
+                          "content": "Z +1  ·  DERECHA",
+                          "fontFamily": "$fontC",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "l7lsRe",
+                          "fill": "$fg",
+                          "content": "Flora sintética",
+                          "fontFamily": "$fontH",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oLTty",
+                          "fill": "$muted",
+                          "content": "Naturaleza mesh/glow. Capas que se adelantan al texto en parallax.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$fontB",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "agGh4",
+              "name": "05 Contact",
+              "width": "fill_container",
+              "height": 780,
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                120,
+                48,
+                160,
+                48
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pcI8O",
+                  "fill": "$gold",
+                  "content": "VERSO V  ·  CIERRE",
+                  "textAlign": "center",
+                  "fontFamily": "$fontC",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 6
+                },
+                {
+                  "type": "text",
+                  "id": "e6uETh",
+                  "name": "CTA headline",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#FFFFFF",
+                        "position": 0
+                      },
+                      {
+                        "color": "#C9A46A",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "content": "Sigamos el hilo.",
+                  "textAlign": "center",
+                  "fontFamily": "$fontH",
+                  "fontSize": 64,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "u8xqJ",
+                  "fill": "$muted",
+                  "content": "Del grid a la flor. De lo quieto a lo vivo. Una sola transición vertical.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "$fontB",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "zz1UR",
+                  "fill": "$fg",
+                  "cornerRadius": 4,
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xKyZZ",
+                      "fill": "#0A0A0A",
+                      "content": "Iniciar conversación",
+                      "fontFamily": "$fontB",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "m2HoXc",
+                  "fill": "$muted",
+                  "content": "TECH/HUMAN  ↔  FLORA/SYNTH  ·  PARALLAX",
+                  "textAlign": "center",
+                  "fontFamily": "$fontC",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Y7fqr8",
+          "x": 0,
+          "y": 0,
+          "name": "Vignette Left (blue→black)",
+          "opacity": 0.18,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 270,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#0A162899",
+                "position": 0
+              },
+              {
+                "color": "#0A162833",
+                "position": 0.35
+              },
+              {
+                "color": "#05050500",
+                "position": 1
+              }
+            ]
+          },
+          "width": 380,
+          "height": 5600
+        },
+        {
+          "type": "rectangle",
+          "id": "JhElc",
+          "x": 1120,
+          "y": 0,
+          "name": "Vignette Right",
+          "opacity": 0.22,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#000000",
+                "position": 0
+              },
+              {
+                "color": "#00000000",
+                "position": 1
+              }
+            ]
+          },
+          "width": 320,
+          "height": 5600
+        },
+        {
+          "type": "rectangle",
+          "id": "uLZsS",
+          "x": 0,
+          "y": 0,
+          "name": "Vignette Top",
+          "opacity": 0.55,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#000000CC",
+                "position": 0
+              },
+              {
+                "color": "#00000000",
+                "position": 1
+              }
+            ]
+          },
+          "width": 1440,
+          "height": 160
+        },
+        {
+          "type": "rectangle",
+          "id": "SyO8h",
+          "x": 0,
+          "y": 5380,
+          "name": "Vignette Bottom",
+          "opacity": 0.45,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#000000CC",
+                "position": 0
+              },
+              {
+                "color": "#00000000",
+                "position": 1
+              }
+            ]
+          },
+          "width": 1440,
+          "height": 220
+        },
+        {
+          "type": "rectangle",
+          "id": "f5mKDT",
+          "x": 40,
+          "y": 4900,
+          "name": "Collage invade L",
+          "enabled": false,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/generated-1788030074214.png",
+            "mode": "fill"
+          },
+          "width": 340,
+          "height": 520
+        },
+        {
+          "type": "rectangle",
+          "id": "eouJN",
+          "x": 1060,
+          "y": 4850,
+          "name": "Collage invade R",
+          "enabled": false,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/generated-1788030073758.png",
+            "mode": "fill"
+          },
+          "width": 360,
+          "height": 560
+        },
+        {
+          "type": "frame",
+          "id": "xfqCq",
+          "x": 0,
+          "y": 0,
+          "name": "Silhouette Border L",
+          "width": 460,
+          "height": 5600,
+          "fill": "#00000000",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "bepe9",
+              "x": 24,
+              "y": 36,
+              "name": "L label",
+              "fill": "#C9A46A88",
+              "content": "Z+3  ·  SILUETA FIJA",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 9,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "rW4nd",
+              "x": -20,
+              "y": 40,
+              "name": "Sil L · copper blossom",
+              "fill": {
+                "type": "image",
+                "opacity": 0.95,
+                "enabled": true,
+                "url": "images/00002-2890352603.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 400,
+              "height": 520
+            },
+            {
+              "type": "rectangle",
+              "id": "XYhjH",
+              "x": -10,
+              "y": 480,
+              "name": "Sil L · sepia mesh",
+              "fill": {
+                "type": "image",
+                "opacity": 0.92,
+                "enabled": true,
+                "url": "images/00003-2392020884.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 380,
+              "height": 560
+            },
+            {
+              "type": "rectangle",
+              "id": "S3Afl",
+              "x": -30,
+              "y": 980,
+              "name": "Sil L · feather leaf",
+              "fill": {
+                "type": "image",
+                "opacity": 0.9,
+                "enabled": true,
+                "url": "images/00004-3774433100.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 420,
+              "height": 600
+            },
+            {
+              "type": "rectangle",
+              "id": "JjNsF",
+              "x": -20,
+              "y": 1520,
+              "name": "Sil L · mesh flowers",
+              "fill": {
+                "type": "image",
+                "opacity": 0.93,
+                "enabled": true,
+                "url": "images/00005-2294553250.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 400,
+              "height": 580
+            },
+            {
+              "type": "rectangle",
+              "id": "JeNxl",
+              "x": 40,
+              "y": 2100,
+              "name": "Sil L · wire stalk",
+              "fill": {
+                "type": "image",
+                "opacity": 0.88,
+                "enabled": true,
+                "url": "images/00007-3818874483.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 280,
+              "height": 720
+            },
+            {
+              "type": "rectangle",
+              "id": "olu2F",
+              "x": 20,
+              "y": 2780,
+              "name": "Sil L · amber frond",
+              "fill": {
+                "type": "image",
+                "opacity": 0.9,
+                "enabled": true,
+                "url": "images/00009-1552648371.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 260,
+              "height": 900
+            },
+            {
+              "type": "rectangle",
+              "id": "X64CV",
+              "x": -30,
+              "y": 3600,
+              "name": "Sil L · blossom reprise",
+              "fill": {
+                "type": "image",
+                "opacity": 0.85,
+                "enabled": true,
+                "url": "images/00002-2890352603.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 420,
+              "height": 560
+            },
+            {
+              "type": "rectangle",
+              "id": "Oj3UU",
+              "x": -10,
+              "y": 4120,
+              "name": "Sil L · mesh mid",
+              "fill": {
+                "type": "image",
+                "opacity": 0.88,
+                "enabled": true,
+                "url": "images/00003-2392020884.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 380,
+              "height": 560
+            },
+            {
+              "type": "rectangle",
+              "id": "wZqqT",
+              "x": -20,
+              "y": 4680,
+              "name": "Sil L · feather low",
+              "fill": {
+                "type": "image",
+                "opacity": 0.92,
+                "enabled": true,
+                "url": "images/00004-3774433100.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 400,
+              "height": 640
+            },
+            {
+              "type": "rectangle",
+              "id": "nnJ8W",
+              "x": -30,
+              "y": 5100,
+              "name": "Sil L · mesh base",
+              "fill": {
+                "type": "image",
+                "opacity": 0.9,
+                "enabled": true,
+                "url": "images/00005-2294553250.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 420,
+              "height": 520
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FyXvO",
+          "x": 980,
+          "y": 0,
+          "name": "Silhouette Border R",
+          "width": 460,
+          "height": 5600,
+          "fill": "#00000000",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "BeZiF",
+              "x": 180,
+              "y": 36,
+              "name": "R label",
+              "fill": "#6FA8C488",
+              "content": "Z+3  ·  SILUETA FIJA",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 9,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "l8oDU",
+              "x": 20,
+              "y": 20,
+              "name": "Sil R · flora tech",
+              "fill": {
+                "type": "image",
+                "opacity": 0.95,
+                "enabled": true,
+                "url": "images/00000-1826184176.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 400,
+              "height": 640
+            },
+            {
+              "type": "rectangle",
+              "id": "U6GWB",
+              "x": 40,
+              "y": 560,
+              "name": "Sil R · pine circuit",
+              "fill": {
+                "type": "image",
+                "opacity": 0.9,
+                "enabled": true,
+                "url": "images/00001-2853978899.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 380,
+              "height": 560
+            },
+            {
+              "type": "rectangle",
+              "id": "C9NcfX",
+              "x": 100,
+              "y": 1080,
+              "name": "Sil R · umbrella stalk",
+              "fill": {
+                "type": "image",
+                "opacity": 0.92,
+                "enabled": true,
+                "url": "images/00008-1225839072.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 280,
+              "height": 900
+            },
+            {
+              "type": "rectangle",
+              "id": "G6k1t",
+              "x": 30,
+              "y": 1900,
+              "name": "Sil R · flora mid",
+              "fill": {
+                "type": "image",
+                "opacity": 0.88,
+                "enabled": true,
+                "url": "images/00000-1826184176.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 390,
+              "height": 620
+            },
+            {
+              "type": "rectangle",
+              "id": "RWxNk",
+              "x": 120,
+              "y": 2480,
+              "name": "Sil R · frond",
+              "fill": {
+                "type": "image",
+                "opacity": 0.9,
+                "enabled": true,
+                "url": "images/00009-1552648371.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 260,
+              "height": 900
+            },
+            {
+              "type": "rectangle",
+              "id": "KeEqm",
+              "x": 40,
+              "y": 3300,
+              "name": "Sil R · pine mid",
+              "fill": {
+                "type": "image",
+                "opacity": 0.86,
+                "enabled": true,
+                "url": "images/00001-2853978899.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 370,
+              "height": 560
+            },
+            {
+              "type": "rectangle",
+              "id": "gNHxG",
+              "x": 110,
+              "y": 3820,
+              "name": "Sil R · stalk low",
+              "fill": {
+                "type": "image",
+                "opacity": 0.9,
+                "enabled": true,
+                "url": "images/00008-1225839072.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 280,
+              "height": 880
+            },
+            {
+              "type": "rectangle",
+              "id": "W8lb8n",
+              "x": 20,
+              "y": 4600,
+              "name": "Sil R · flora low",
+              "fill": {
+                "type": "image",
+                "opacity": 0.93,
+                "enabled": true,
+                "url": "images/00000-1826184176.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 400,
+              "height": 640
+            },
+            {
+              "type": "rectangle",
+              "id": "jCvzG",
+              "x": 50,
+              "y": 5080,
+              "name": "Sil R · pine base",
+              "fill": {
+                "type": "image",
+                "opacity": 0.88,
+                "enabled": true,
+                "url": "images/00001-2853978899.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 360,
+              "height": 540
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "pv1kh",
+      "x": 0,
+      "y": 0,
+      "fill": "#000000",
+      "content": "285862",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal"
+    },
+    {
+      "type": "frame",
+      "id": "IIE8J",
+      "x": 1560,
+      "y": 0,
+      "name": "Design Legend",
+      "width": 420,
+      "fill": "#0C0C0C",
+      "cornerRadius": 8,
+      "stroke": "#FFFFFF14",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "wl2mJ",
+          "fill": "#C9A46A",
+          "content": "DIRECCIÓN  ·  HEADER VIDEO",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 11,
+          "fontWeight": "normal",
+          "letterSpacing": 4
+        },
+        {
+          "type": "text",
+          "id": "kT7FX",
+          "fill": "#F2EDE6",
+          "content": "Mariano — Web vertical",
+          "fontFamily": "Geist",
+          "fontSize": 28,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "WUZbx",
+          "fill": "#8A8580",
+          "content": "Header: MARIANO + mm1.mp4 loop centrado\nBordes = siluetas fijas (screen / PNG alpha)\nEl video vive en el centro, DETRÁS de L/R\nCapas: fondo · centro+video · siluetas Z+3 · UI\nHTML: <video autoplay muted loop playsinline>\nAssets: design/images + design/vids/mm1.mp4",
+          "lineHeight": 1.55,
+          "fontFamily": "Geist",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "TjrhH",
+          "fill": "#6FA8C4",
+          "content": "PALETA",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 11,
+          "fontWeight": "normal",
+          "letterSpacing": 3
+        },
+        {
+          "type": "frame",
+          "id": "xJfEo",
+          "gap": 10,
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "QxTb2",
+              "fill": "#050505",
+              "width": 40,
+              "height": 40,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "V6liQ3",
+              "fill": "#F2EDE6",
+              "width": 40,
+              "height": 40,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "iNFBl",
+              "fill": "#C9A46A",
+              "width": 40,
+              "height": 40,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "a5DZLL",
+              "fill": "#6FA8C4",
+              "width": 40,
+              "height": 40,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "cF5xY",
+              "fill": "#3D1524",
+              "width": 40,
+              "height": 40,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "LaL57",
+              "fill": "#0A1628",
+              "width": 40,
+              "height": 40,
+              "stroke": "#FFFFFF22",
+              "strokeWidth": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "v8ZhD",
+          "fill": "#8A8580",
+          "content": "Montreal Neue  ·  Messina Sans Mono  (intent)",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 10,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "lA2Tf",
+      "x": 2060,
+      "y": 0,
+      "name": "Collage System — Layers",
+      "clip": true,
+      "width": 1440,
+      "height": 1600,
+      "fill": "#050505",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "MokpE",
+          "x": 64,
+          "y": 48,
+          "name": "Board title",
+          "fill": "#C9A46A",
+          "content": "SISTEMA COLLAGE",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "letterSpacing": 6
+        },
+        {
+          "type": "text",
+          "id": "d0J5JW",
+          "x": 64,
+          "y": 78,
+          "name": "Board subtitle",
+          "fill": "#F2EDE6",
+          "content": "El fondo deja de ser un bitmap. Las flores son PNG con alpha y cruzan el contenido.",
+          "fontFamily": "Geist",
+          "fontSize": 18,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "cOcLS",
+          "x": 64,
+          "y": 140,
+          "name": "Demo A — Flora over type",
+          "clip": true,
+          "width": 640,
+          "height": 900,
+          "fill": "#050505",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "KiaSY",
+              "x": 40,
+              "y": 520,
+              "name": "Z-1 Type behind",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#FFFFFF22",
+                    "position": 1
+                  }
+                ]
+              },
+              "content": "DINNER",
+              "fontFamily": "Geist",
+              "fontSize": 120,
+              "fontWeight": "600",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "w06k2J",
+              "x": 140,
+              "y": 120,
+              "name": "Z0 Framed media",
+              "clip": true,
+              "width": 360,
+              "height": 420,
+              "fill": "#1A1510",
+              "cornerRadius": 4,
+              "stroke": "#C9A46A",
+              "strokeWidth": 8,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "a9Lmy",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Painting",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "refs/ref-collage-dinner.png",
+                    "mode": "fill"
+                  },
+                  "width": 360,
+                  "height": 420
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "x1Gjq7",
+              "x": -20,
+              "y": 280,
+              "name": "PNG Flora L (cutout)",
+              "enabled": false,
+              "opacity": 0.15,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "refs/ref-collage-dinner.png",
+                "mode": "fill"
+              },
+              "width": 280,
+              "height": 420,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#000000AA",
+                "offset": {
+                  "x": 0,
+                  "y": 12
+                },
+                "blur": 24
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "l9odDG",
+              "x": 380,
+              "y": 200,
+              "name": "PNG Flora R (cutout)",
+              "enabled": false,
+              "opacity": 0.15,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "refs/ref-collage-cta.png",
+                "mode": "fill"
+              },
+              "width": 300,
+              "height": 460,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000099",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 20
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "MHf9R",
+              "x": -40,
+              "y": 300,
+              "name": "AI Cutout Tulip L",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-1788030060972.png",
+                "mode": "fill"
+              },
+              "width": 260,
+              "height": 380
+            },
+            {
+              "type": "rectangle",
+              "id": "P9qY4",
+              "x": 400,
+              "y": 160,
+              "name": "AI Cutout Tulip R",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-1788030061652.png",
+                "mode": "fill"
+              },
+              "width": 280,
+              "height": 420
+            },
+            {
+              "type": "text",
+              "id": "f3HY1A",
+              "x": 40,
+              "y": 840,
+              "name": "Z+3 UI caption",
+              "fill": "#6FA8C4",
+              "content": "Z+2 flora PNG  ›  Z0 frame  ›  Z−1 type",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ISzY1",
+          "x": 740,
+          "y": 140,
+          "name": "Demo B — Edge flora into CTA",
+          "clip": true,
+          "width": 640,
+          "height": 900,
+          "fill": "#050505",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "NzjDX",
+              "x": 48,
+              "y": 280,
+              "name": "CTA type",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#C8D0D8",
+                    "position": 1
+                  }
+                ]
+              },
+              "content": "CLICK HERE\nTO ENTER",
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 48,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "ufqXK",
+              "x": 120,
+              "y": 580,
+              "name": "Fine print",
+              "fill": "#8A8580",
+              "content": "El contenido vive en el centro.\nLas flores invaden desde los bordes.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "m0QZE",
+              "x": -40,
+              "y": 520,
+              "name": "Cutout BL",
+              "enabled": false,
+              "opacity": 0.12,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "refs/ref-collage-cta.png",
+                "mode": "fill"
+              },
+              "width": 300,
+              "height": 400
+            },
+            {
+              "type": "rectangle",
+              "id": "vAByr",
+              "x": 360,
+              "y": 500,
+              "name": "Cutout BR",
+              "enabled": false,
+              "opacity": 0.12,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "refs/ref-collage-dinner.png",
+                "mode": "fill"
+              },
+              "width": 320,
+              "height": 420
+            },
+            {
+              "type": "rectangle",
+              "id": "eTr6f",
+              "x": -60,
+              "y": 560,
+              "name": "AI Cutout Corner L",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-1788030062343.png",
+                "mode": "fill"
+              },
+              "width": 320,
+              "height": 380
+            },
+            {
+              "type": "rectangle",
+              "id": "nnDwd",
+              "x": 380,
+              "y": 540,
+              "name": "AI Cutout Corner R",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/generated-1788030060673.png",
+                "mode": "fill"
+              },
+              "width": 320,
+              "height": 400
+            },
+            {
+              "type": "ellipse",
+              "id": "P50A66",
+              "x": 260,
+              "y": 420,
+              "name": "CTA seal",
+              "fill": "#E8DFD0",
+              "width": 120,
+              "height": 120,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#C9A46A55",
+                "blur": 20
+              }
+            },
+            {
+              "type": "text",
+              "id": "zjQes",
+              "x": 278,
+              "y": 468,
+              "name": "CTA label",
+              "fill": "#1A1510",
+              "content": "ENTER",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "J2aed",
+          "x": 64,
+          "y": 1080,
+          "name": "Layer recipe",
+          "width": 1312,
+          "height": 460,
+          "fill": "#0C0C0C",
+          "cornerRadius": 8,
+          "stroke": "#FFFFFF14",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 32,
+          "children": [
+            {
+              "type": "text",
+              "id": "c7NzgQ",
+              "fill": "#C9A46A",
+              "content": "CÓMO PREPARAR LAS CAPAS",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "gutb2",
+              "fill": "#F2EDE6",
+              "content": "El bitmap completo es solo referencia. En producción se parte en planos:",
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "GBrEZ",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RwqtG",
+                  "width": "fill_container",
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "v6csx",
+                      "fill": "#6FA8C4",
+                      "content": "Z −2",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "TYJxx",
+                      "fill": "#F2EDE6",
+                      "content": "Fondo",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m6QDz",
+                      "fill": "#8A8580",
+                      "content": "Negro / azul→negro. Sin flora.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KDc0x",
+                  "width": "fill_container",
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f6LdNd",
+                      "fill": "#6FA8C4",
+                      "content": "Z −1",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "hJilf",
+                      "fill": "#F2EDE6",
+                      "content": "Tipo fantasma",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K8oPE",
+                      "fill": "#8A8580",
+                      "content": "Titulares grandes DETRÁS de las flores.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y5QHaH",
+                  "width": "fill_container",
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GNXxC",
+                      "fill": "#6FA8C4",
+                      "content": "Z  0",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "PYdHr",
+                      "fill": "#F2EDE6",
+                      "content": "Contenido",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s7iVeE",
+                      "fill": "#8A8580",
+                      "content": "Foto, frame, poema, video ALIVE.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s72UG",
+                  "width": "fill_container",
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "acc8W",
+                      "fill": "#6FA8C4",
+                      "content": "Z +1",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "pLSUn",
+                      "fill": "#F2EDE6",
+                      "content": "Flora PNG",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "twUR2",
+                      "fill": "#8A8580",
+                      "content": "Tulipanes/rosas recortados (alpha). Invaden el centro.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oQvVI",
+                  "width": "fill_container",
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BVV0f",
+                      "fill": "#6FA8C4",
+                      "content": "Z +2",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "J7vtOC",
+                      "fill": "#F2EDE6",
+                      "content": "UI / CTA",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DgOae",
+                      "fill": "#8A8580",
+                      "content": "Botones y sellos ENCIMA de la flora.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Dp7oY",
+              "fill": "#8A8580",
+              "content": "Assets: exportar cada flor como PNG/WebP con transparencia (sin fondo). 2–4 piezas por sección (L/R/corner). Parallax: Z+1 se mueve más lento que el scroll del centro.",
+              "lineHeight": 1.45,
+              "fontFamily": "Geist",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "SbXmN",
+      "x": 3580,
+      "y": 0,
+      "name": "Depth System — Silhouettes",
+      "clip": true,
+      "width": 1440,
+      "height": 1400,
+      "fill": "#050505",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "pyuEs",
+          "x": 64,
+          "y": 48,
+          "fill": "#C9A46A",
+          "content": "SISTEMA DE PROFUNDIDAD",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "letterSpacing": 6
+        },
+        {
+          "type": "text",
+          "id": "yBRQE",
+          "x": 64,
+          "y": 78,
+          "fill": "#F2EDE6",
+          "content": "Los bordes son siluetas fijas. La web sucede detrás.",
+          "fontFamily": "Geist",
+          "fontSize": 22,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "Jd4js",
+          "x": 64,
+          "y": 140,
+          "name": "Viewport demo",
+          "clip": true,
+          "width": 1312,
+          "height": 780,
+          "fill": "#0A1628",
+          "cornerRadius": 8,
+          "stroke": "#FFFFFF14",
+          "strokeWidth": 1,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "nCMcL",
+              "x": 0,
+              "y": 0,
+              "name": "Navy fade",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 270,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#122A48",
+                    "position": 0
+                  },
+                  {
+                    "color": "#071018",
+                    "position": 0.55
+                  },
+                  {
+                    "color": "#050505",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 280,
+              "height": 780
+            },
+            {
+              "type": "frame",
+              "id": "XVKoT",
+              "x": 220,
+              "y": 40,
+              "name": "Z0 Content under",
+              "width": 880,
+              "height": 700,
+              "fill": "#0C0C0C",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                48,
+                40
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FhQGV",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 180,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F2EDE6",
+                        "position": 0
+                      },
+                      {
+                        "color": "#C9A46A",
+                        "position": 0.5
+                      },
+                      {
+                        "color": "#6FA8C4",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "content": "MARIANO",
+                  "fontFamily": "Geist",
+                  "fontSize": 72,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "AikXN",
+                  "fill": "#8A8580",
+                  "content": "Este bloque es el centro. En producción scrollea.\nLas siluetas de los bordes NO se mueven con él.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 4,
+                  "id": "M5Gtb",
+                  "name": "mm1.mp4 under silhouettes",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "vids/mm1-poster.jpg",
+                    "mode": "fill"
+                  },
+                  "width": "fill_container",
+                  "height": 280
+                },
+                {
+                  "type": "text",
+                  "id": "agFlk",
+                  "fill": "#6FA8C4",
+                  "content": "El relato atraviesa la malla: se ve a través de las siluetas.",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "KOQD4",
+              "x": -40,
+              "y": -20,
+              "name": "Fixed sil L",
+              "fill": {
+                "type": "image",
+                "opacity": 0.95,
+                "enabled": true,
+                "url": "images/00002-2890352603.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 420,
+              "height": 820
+            },
+            {
+              "type": "rectangle",
+              "id": "GQwTb",
+              "x": -20,
+              "y": 360,
+              "name": "Fixed sil L2",
+              "fill": {
+                "type": "image",
+                "opacity": 0.9,
+                "enabled": true,
+                "url": "images/00005-2294553250.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 380,
+              "height": 480
+            },
+            {
+              "type": "rectangle",
+              "id": "BF82T",
+              "x": 940,
+              "y": -40,
+              "name": "Fixed sil R",
+              "fill": {
+                "type": "image",
+                "opacity": 0.95,
+                "enabled": true,
+                "url": "images/00000-1826184176.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 420,
+              "height": 700
+            },
+            {
+              "type": "rectangle",
+              "id": "sGNMp",
+              "x": 1020,
+              "y": 380,
+              "name": "Fixed sil R2",
+              "fill": {
+                "type": "image",
+                "opacity": 0.92,
+                "enabled": true,
+                "url": "images/00008-1225839072.png",
+                "mode": "fit",
+                "blendMode": "screen"
+              },
+              "width": 300,
+              "height": 480
+            },
+            {
+              "type": "text",
+              "id": "MSBe5",
+              "x": 48,
+              "y": 740,
+              "fill": "#C9A46A",
+              "content": "← silueta fija  ·  contenido detrás  ·  silueta fija →",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A5Dyx",
+          "x": 64,
+          "y": 960,
+          "name": "Depth recipe",
+          "width": 1312,
+          "height": 380,
+          "fill": "#0C0C0C",
+          "cornerRadius": 8,
+          "stroke": "#FFFFFF14",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "MtECK",
+              "fill": "#C9A46A",
+              "content": "CÓMO SE ARMA",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "sByvu",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "T6gQN",
+                  "width": "fill_container",
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h2kYe",
+                      "fill": "#6FA8C4",
+                      "content": "1 · ASSET",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "DZ9FF",
+                      "fill": "#F2EDE6",
+                      "content": "PNG sobre negro puro",
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JK65q",
+                      "fill": "#8A8580",
+                      "content": "design/images/0000x… — flora / mesh / stalks.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G86RG",
+                  "width": "fill_container",
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g5YB38",
+                      "fill": "#6FA8C4",
+                      "content": "2 · SILUETA",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "xMaSo",
+                      "fill": "#F2EDE6",
+                      "content": "Negro → transparente",
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "elZBl",
+                      "fill": "#8A8580",
+                      "content": "CSS mix-blend-mode: screen  o  PNG con alpha real.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bu79H",
+                  "width": "fill_container",
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bEcUd",
+                      "fill": "#6FA8C4",
+                      "content": "3 · CAPAS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "K6c8X",
+                      "fill": "#F2EDE6",
+                      "content": "Bordes encima del centro",
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "onc8X",
+                      "fill": "#8A8580",
+                      "content": "position:fixed L/R · z-index alto · centro scrollea debajo.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RQXd0",
+                  "width": "fill_container",
+                  "fill": "#050505",
+                  "cornerRadius": 6,
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RAAKp",
+                      "fill": "#6FA8C4",
+                      "content": "4 · PROFUNDIDAD",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "MwJYp",
+                      "fill": "#F2EDE6",
+                      "content": "Invaden el relato",
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NHW8J",
+                      "fill": "#8A8580",
+                      "content": "Overlap ~80–120px sobre la columna. Malla deja ver el fondo.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vfUB7",
+      "x": 0,
+      "y": 5800,
+      "name": "QA · Hero depth crop",
+      "clip": true,
+      "width": 1440,
+      "height": 1100,
+      "fill": "#050505",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "SToC2",
+          "x": 0,
+          "y": 0,
+          "name": "bg",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 270,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#122A48",
+                "position": 0
+              },
+              {
+                "color": "#0A1628",
+                "position": 0.12
+              },
+              {
+                "color": "#050505",
+                "position": 0.4
+              },
+              {
+                "color": "#050505",
+                "position": 1
+              }
+            ]
+          },
+          "width": 1440,
+          "height": 1100
+        },
+        {
+          "type": "frame",
+          "id": "W7TV9T",
+          "x": 280,
+          "y": 40,
+          "name": "Center peek",
+          "width": 880,
+          "height": 980,
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            40
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "h0Lqg",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#F2EDE6",
+                    "position": 0
+                  },
+                  {
+                    "color": "#C9A46A",
+                    "position": 0.55
+                  },
+                  {
+                    "color": "#6FA8C4",
+                    "position": 1
+                  }
+                ]
+              },
+              "content": "MARIANO",
+              "fontFamily": "Geist",
+              "fontSize": 72,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "mxae0",
+              "fill": "#8A8580",
+              "content": "Video header en loop · bordes silueta fijos encima",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 4,
+              "id": "L6Vcuw",
+              "name": "mm1.mp4 loop",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "vids/mm1-poster.jpg",
+                "mode": "fill"
+              },
+              "width": 720,
+              "height": 405
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "I8Z4R",
+          "x": 0,
+          "y": -40,
+          "name": "Sil L hero",
+          "fill": {
+            "type": "image",
+            "opacity": 0.95,
+            "enabled": true,
+            "url": "images/00002-2890352603.png",
+            "mode": "fit",
+            "blendMode": "screen"
+          },
+          "width": 460,
+          "height": 700
+        },
+        {
+          "type": "rectangle",
+          "id": "m4r3a",
+          "x": 0,
+          "y": 560,
+          "name": "Sil L hero 2",
+          "fill": {
+            "type": "image",
+            "opacity": 0.9,
+            "enabled": true,
+            "url": "images/00005-2294553250.png",
+            "mode": "fit",
+            "blendMode": "screen"
+          },
+          "width": 420,
+          "height": 520
+        },
+        {
+          "type": "rectangle",
+          "id": "y365Z",
+          "x": 980,
+          "y": -60,
+          "name": "Sil R hero",
+          "fill": {
+            "type": "image",
+            "opacity": 0.95,
+            "enabled": true,
+            "url": "images/00000-1826184176.png",
+            "mode": "fit",
+            "blendMode": "screen"
+          },
+          "width": 460,
+          "height": 720
+        },
+        {
+          "type": "rectangle",
+          "id": "qwtLw",
+          "x": 1060,
+          "y": 540,
+          "name": "Sil R hero 2",
+          "fill": {
+            "type": "image",
+            "opacity": 0.9,
+            "enabled": true,
+            "url": "images/00008-1225839072.png",
+            "mode": "fit",
+            "blendMode": "screen"
+          },
+          "width": 300,
+          "height": 560
+        },
+        {
+          "type": "frame",
+          "id": "ddEb3",
+          "x": 660,
+          "y": 560,
+          "name": "Loop badge",
+          "width": 120,
+          "height": 40,
+          "fill": "#00000099",
+          "cornerRadius": 40,
+          "stroke": "#FFFFFF33",
+          "strokeWidth": 1,
+          "gap": 8,
+          "padding": [
+            8,
+            14
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "Gb83j",
+              "fill": "#FF4D4D",
+              "width": 8,
+              "height": 8,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#FF4D4D88",
+                "blur": 8
+              }
+            },
+            {
+              "type": "text",
+              "id": "iQ88m",
+              "fill": "#F2EDE6",
+              "content": "LOOP",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#050505"
+    },
+    "fg": {
+      "type": "color",
+      "value": "#F2EDE6"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#8A8580"
+    },
+    "gold": {
+      "type": "color",
+      "value": "#C9A46A"
+    },
+    "silver": {
+      "type": "color",
+      "value": "#C8D0D8"
+    },
+    "glow": {
+      "type": "color",
+      "value": "#6FA8C4"
+    },
+    "burgundy": {
+      "type": "color",
+      "value": "#3D1524"
+    },
+    "wine": {
+      "type": "color",
+      "value": "#6B1F35"
+    },
+    "border": {
+      "type": "color",
+      "value": "#FFFFFF18"
+    },
+    "fontH": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "fontB": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "fontC": {
+      "type": "string",
+      "value": "IBM Plex Mono"
+    },
+    "navy": {
+      "type": "color",
+      "value": "#0A1628"
+    },
+    "navyMid": {
+      "type": "color",
+      "value": "#0D1F38"
+    },
+    "cyan": {
+      "type": "color",
+      "value": "#3ECFCF"
+    },
+    "fontHIntent": {
+      "type": "string",
+      "value": "Montreal Neue"
+    },
+    "fontCIntent": {
+      "type": "string",
+      "value": "Messina Sans Mono"
+    }
+  },
+  "fileToken": "a1f064bb-1c95-4d12-a652-01dc2791aba8"
+}
