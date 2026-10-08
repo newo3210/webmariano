@@ -557,49 +557,43 @@
             flujo de trabajo, asistentes chatbots e integración con inteligencia
             artificial.
           </p>
-          <!-- CRM desk - one fake client, stage, points, and a local assistant -->
+          <!-- Inserted CRM panel - fictional clients, tasks, score, and contact map -->
           <div class="crm-demo" data-crm-demo>
-            <p class="crm-demo__kicker">Demo en vivo · una ficha</p>
-            <div class="crm-demo__head">
-              <p class="crm-demo__name">Ana Pérez</p>
-              <p class="crm-demo__meta">Campaña Mendoza · cowork</p>
+            <div class="crm-demo__bar">
+              <span class="crm-demo__brand">Ficha de cliente</span>
+              <span class="crm-demo__live">Demo ficticia</span>
             </div>
-            <ol class="crm-demo__stages" data-crm-stages>
-              <li data-stage="Lead" class="is-on">Lead</li>
-              <li data-stage="Propuesta">Propuesta</li>
-              <li data-stage="Cerrada">Cerrada</li>
-            </ol>
-            <p class="crm-demo__score">
-              <span data-crm-points>0</span> pts de equipo
-            </p>
-            <div class="crm-demo__actions">
-              <button type="button" class="crm-demo__btn" data-crm-advance>
-                Pasar de etapa
-              </button>
-              <button type="button" class="crm-demo__btn" data-crm-point>
-                Sumar punto
-              </button>
-            </div>
-            <form class="crm-demo__chat" data-crm-chat>
-              <label class="crm-demo__label" for="crm-demo-ask">Asistente</label>
-              <div class="crm-demo__ask">
-                <input
-                  id="crm-demo-ask"
-                  type="text"
-                  name="ask"
-                  autocomplete="off"
-                  placeholder="Precio, visita o estado"
-                  data-crm-input
-                />
-                <button type="submit" class="crm-demo__btn crm-demo__btn--gold">
-                  Preguntar
-                </button>
+            <div class="crm-demo__switch" data-crm-switch role="tablist" aria-label="Clientes"></div>
+            <section class="crm-demo__card">
+              <h3 class="crm-demo__label">Información del cliente</h3>
+              <div class="crm-demo__identity">
+                <span class="crm-demo__avatar" data-crm-avatar></span>
+                <dl class="crm-demo__facts" data-crm-facts></dl>
               </div>
-            </form>
-            <p class="crm-demo__reply" data-crm-reply aria-live="polite"></p>
-            <ul class="crm-demo__log" data-crm-log aria-live="polite">
-              <li>Mesa lista. Ana Pérez está en Lead.</li>
-            </ul>
+              <ul class="crm-demo__stats" data-crm-stats></ul>
+            </section>
+            <section class="crm-demo__card">
+              <h3 class="crm-demo__label">Tareas</h3>
+              <div data-crm-tasks></div>
+            </section>
+            <div class="crm-demo__actions">
+              <button type="button" class="crm-demo__btn crm-demo__btn--go" data-crm-advance>
+                Avanzar etapa
+              </button>
+              <button type="button" class="crm-demo__btn crm-demo__btn--stop" data-crm-contact>
+                Registrar contacto
+              </button>
+            </div>
+            <p class="crm-demo__flash" data-crm-flash aria-live="polite"></p>
+            <figure class="crm-demo__map">
+              <iframe
+                data-crm-map
+                title="Mapa de la zona de contacto"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <figcaption data-crm-zone></figcaption>
+            </figure>
           </div>
         </article>
         <article class="filler filler--alt">

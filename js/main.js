@@ -1049,89 +1049,297 @@ bootFormationLedgerPin();
 bootFolderRail();
 bootFolderFlipPin();
 
-// CRM desk state - one client, three stages, a team score, and canned assistant replies.
-const CRM_STAGES = ["Lead", "Propuesta", "Cerrada"];
+// CRM clients - fictional people, tasks, stages, and contact coordinates.
+const CRM_STAGES = ["Lead", "Propuesta", "Activa"];
 
-// Assistant replies - keyword match on the question, plus the live stage and score.
-function crmReply(question, stage, points) {
-  const q = question.toLowerCase();
+const CRM_CLIENTS = [
+  {
+    id: "alejandro",
+    name: "Alejandro Pérez",
+    zone: "Tupungato, Mendoza",
+    address: "Ruta 89, espacio de cowork",
+    role: "Campaña Mendoza",
+    lat: -33.37,
+    lon: -69.148,
+    skin: "#f0c7a4",
+    hair: "#3a2a22",
+    shirt: "#2457c5",
+    contact: "12 mar 2026",
+    stage: 0,
+    groups: [
+      {
+        title: "Hoy",
+        open: true,
+        tasks: [
+          { id: "al-visita", title: "Confirmar visita al cowork", points: 8, done: false },
+          { id: "al-servidor", title: "Enviar propuesta de servidores", points: 5, done: false },
+        ],
+      },
+      {
+        title: "Seguimiento",
+        open: false,
+        tasks: [
+          { id: "al-bot", title: "Probar chatbot de turnos", points: 6, done: false },
+        ],
+      },
+    ],
+  },
+  {
+    id: "camila",
+    name: "Camila Soto",
+    zone: "San Telmo, CABA",
+    address: "Av. Defensa 1120",
+    role: "Base de clientes",
+    lat: -34.621,
+    lon: -58.373,
+    skin: "#e7b497",
+    hair: "#1c120e",
+    shirt: "#7c3aed",
+    contact: "4 feb 2026",
+    stage: 1,
+    groups: [
+      {
+        title: "Hoy",
+        open: true,
+        tasks: [
+          { id: "ca-mail", title: "Delegar campaña de correo", points: 8, done: false },
+        ],
+      },
+      {
+        title: "Seguimiento",
+        open: false,
+        tasks: [
+          { id: "ca-base", title: "Cerrar listado de ventas", points: 6, done: false },
+        ],
+      },
+    ],
+  },
+  {
+    id: "mateo",
+    name: "Mateo Vargas",
+    zone: "Epuyén, Chubut",
+    address: "Salón cultural municipal",
+    role: "Cobertura de prensa",
+    lat: -42.233,
+    lon: -71.367,
+    skin: "#f3d2b5",
+    hair: "#6b3a22",
+    shirt: "#0f766e",
+    contact: "28 ene 2026",
+    stage: 0,
+    groups: [
+      {
+        title: "Hoy",
+        open: true,
+        tasks: [
+          { id: "ma-acto", title: "Coordinar cobertura del acto", points: 5, done: false },
+          { id: "ma-sala", title: "Checklist de sonido en sala", points: 4, done: false },
+        ],
+      },
+      {
+        title: "Seguimiento",
+        open: false,
+        tasks: [
+          { id: "ma-nota", title: "Enviar nota a la redacción", points: 6, done: false },
+        ],
+      },
+    ],
+  },
+];
 
-  if (/precio|costo|presupuesto|valor/.test(q)) {
-    return "El rango de Ana sigue en estudio. Si la pasás a Propuesta, el panel deja el número anotado en la ficha.";
-  }
-
-  if (/visita|turno|agenda|reun/.test(q)) {
-    return "Hay un hueco el jueves para recorrer el espacio de cowork. Lo dejo como próxima acción de la ficha.";
-  }
-
-  if (/estado|etapa|ficha/.test(q)) {
-    return `Ana Pérez está en ${stage}. El equipo lleva ${points} pts en esta mesa.`;
-  }
-
-  if (/punto|equipo|juego|gamif/.test(q)) {
-    return `La gamificación suma de a uno. Ahora la ficha tiene ${points} pts.`;
-  }
-
-  return "Puedo decir el estado, un rango de precio o un turno de visita. También podés mover la etapa o sumar un punto.";
+// Avatar markup - flat portrait so each client reads as a user, not a photo of a real person.
+function crmAvatar(client) {
+  return `<svg class="crm-demo__face" viewBox="0 0 64 64" aria-hidden="true">
+    <circle cx="32" cy="32" r="32" fill="${client.shirt}"></circle>
+    <circle cx="32" cy="26" r="11" fill="${client.skin}"></circle>
+    <path d="M16 58c3-14 29-14 32 0" fill="${client.shirt}"></path>
+    <path d="M20 24c2-10 22-12 26-2-6-6-18-6-26 2z" fill="${client.hair}"></path>
+  </svg>`;
 }
 
-// Demo handlers - advance the deal, add a point, ask the assistant, keep a short log.
+// Map embed - OpenStreetMap frame around the fictional contact point.
+function crmMapSrc(client) {
+  const latPad = 0.12;
+  const lonPad = 0.16;
+  const bbox = [
+    client.lon - lonPad,
+    client.lat - latPad,
+    client.lon + lonPad,
+    client.lat + latPad,
+  ].join(",");
+  return `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${client.lat},${client.lon}`;
+}
+
+// Demo panel - switch clients, fold tasks, and add points when the ficha moves.
 function bootCrmDemo() {
   const root = document.querySelector("[data-crm-demo]");
   if (!root) return;
 
-  const stages = [...root.querySelectorAll("[data-stage]")];
-  const pointsNode = root.querySelector("[data-crm-points]");
-  const advanceBtn = root.querySelector("[data-crm-advance]");
-  const pointBtn = root.querySelector("[data-crm-point]");
-  const form = root.querySelector("[data-crm-chat]");
-  const input = root.querySelector("[data-crm-input]");
-  const reply = root.querySelector("[data-crm-reply]");
-  const log = root.querySelector("[data-crm-log]");
-  let index = 0;
+  const switcher = root.querySelector("[data-crm-switch]");
+  const avatar = root.querySelector("[data-crm-avatar]");
+  const facts = root.querySelector("[data-crm-facts]");
+  const stats = root.querySelector("[data-crm-stats]");
+  const tasks = root.querySelector("[data-crm-tasks]");
+  const advance = root.querySelector("[data-crm-advance]");
+  const contact = root.querySelector("[data-crm-contact]");
+  const flash = root.querySelector("[data-crm-flash]");
+  const map = root.querySelector("[data-crm-map]");
+  const zone = root.querySelector("[data-crm-zone]");
+  let current = 0;
   let points = 0;
+  let flashTimer = 0;
+
+  const client = () => CRM_CLIENTS[current];
+
+  const doneCount = () =>
+    CRM_CLIENTS.reduce(
+      (sum, person) =>
+        sum + person.groups.reduce((inner, group) => inner + group.tasks.filter((task) => task.done).length, 0),
+      0,
+    );
+
+  const showGain = (gain) => {
+    flash.textContent = `+${gain} pts`;
+    window.clearTimeout(flashTimer);
+    flashTimer = window.setTimeout(() => {
+      flash.textContent = "";
+    }, 1200);
+  };
+
+  const paintStats = () => {
+    const person = client();
+    const score = Math.min(99, 70 + points);
+    stats.innerHTML = `
+      <li><strong data-crm-points>${points}</strong><span>Puntos</span></li>
+      <li><strong>${doneCount()}</strong><span>Tareas</span></li>
+      <li><strong>${score}</strong><span>Score</span></li>
+    `;
+    advance.disabled = person.stage >= CRM_STAGES.length - 1;
+    advance.textContent = advance.disabled ? "Etapa al día" : "Avanzar etapa";
+  };
+
+  const paintFacts = () => {
+    const person = client();
+    facts.innerHTML = `
+      <div><dt>Nombre</dt><dd>${person.name}</dd></div>
+      <div><dt>Rol</dt><dd>${person.role}</dd></div>
+      <div><dt>Dirección</dt><dd>${person.address}</dd></div>
+      <div><dt>Zona</dt><dd>${person.zone}</dd></div>
+      <div><dt>Etapa</dt><dd>${CRM_STAGES[person.stage]}</dd></div>
+      <div><dt>Contacto</dt><dd>${person.contact}</dd></div>
+    `;
+  };
+
+  const paintTasks = () => {
+    const person = client();
+    tasks.innerHTML = person.groups
+      .map(
+        (group, index) => `
+        <div class="crm-demo__group${group.open ? " is-open" : ""}">
+          <button type="button" class="crm-demo__group-btn" data-crm-group="${index}" aria-expanded="${group.open}">
+            <span class="crm-demo__chev" aria-hidden="true"></span>
+            <span>${group.title}</span>
+            <span class="crm-demo__count">${group.tasks.length}</span>
+          </button>
+          <ul class="crm-demo__list"${group.open ? "" : " hidden"}>
+            ${group.tasks
+              .map(
+                (task) => `
+              <li>
+                <button type="button" class="crm-demo__task${task.done ? " is-done" : ""}" data-crm-task="${task.id}" aria-pressed="${task.done}">
+                  <span class="crm-demo__check" aria-hidden="true"></span>
+                  <span class="crm-demo__task-name">${task.title}</span>
+                  <span class="crm-demo__task-pts">+${task.points}</span>
+                </button>
+              </li>`,
+              )
+              .join("")}
+          </ul>
+        </div>`,
+      )
+      .join("");
+  };
+
+  const paintPeople = () => {
+    switcher.innerHTML = CRM_CLIENTS.map(
+      (person, index) => `
+        <button type="button" class="crm-demo__person${index === current ? " is-on" : ""}" data-crm-client="${person.id}" role="tab" aria-selected="${index === current}">
+          ${crmAvatar(person)}
+          <span>${person.name.split(" ")[0]}</span>
+        </button>`,
+    ).join("");
+  };
+
+  const paintMap = () => {
+    const person = client();
+    const src = crmMapSrc(person);
+    if (map.getAttribute("src") !== src) {
+      map.title = `Mapa de la zona de contacto de ${person.name}`;
+      map.src = src;
+    }
+    zone.textContent = `Zona de contacto · ${person.zone}`;
+    avatar.innerHTML = crmAvatar(person);
+  };
 
   const paint = () => {
-    stages.forEach((node, i) => {
-      node.classList.toggle("is-on", i === index);
-      node.classList.toggle("is-done", i < index);
-    });
-    pointsNode.textContent = String(points);
-    advanceBtn.textContent = index === CRM_STAGES.length - 1 ? "Reiniciar ficha" : "Pasar de etapa";
+    paintPeople();
+    paintFacts();
+    paintTasks();
+    paintStats();
+    paintMap();
   };
 
-  const note = (line) => {
-    const item = document.createElement("li");
-    item.textContent = line;
-    log.prepend(item);
-    while (log.children.length > 4) log.lastElementChild.remove();
-  };
+  root.addEventListener("click", (event) => {
+    const personBtn = event.target.closest("[data-crm-client]");
+    const groupBtn = event.target.closest("[data-crm-group]");
+    const taskBtn = event.target.closest("[data-crm-task]");
+    const person = client();
 
-  advanceBtn.addEventListener("click", () => {
-    if (index < CRM_STAGES.length - 1) {
-      index += 1;
-      note(`Etapa actualizada: ${CRM_STAGES[index]}.`);
-    } else {
-      index = 0;
-      note("Ficha reiniciada en Lead.");
+    if (personBtn) {
+      const next = CRM_CLIENTS.findIndex((item) => item.id === personBtn.dataset.crmClient);
+      if (next === -1 || next === current) return;
+      current = next;
+      paint();
+      return;
     }
-    paint();
+
+    if (groupBtn) {
+      const group = person.groups[Number(groupBtn.dataset.crmGroup)];
+      if (!group) return;
+      group.open = !group.open;
+      paintTasks();
+      return;
+    }
+
+    if (!taskBtn) return;
+    const task = person.groups.flatMap((group) => group.tasks).find((item) => item.id === taskBtn.dataset.crmTask);
+    if (!task) return;
+    task.done = !task.done;
+    points += task.done ? task.points : -task.points;
+    if (task.done) showGain(task.points);
+    paintTasks();
+    paintStats();
   });
 
-  pointBtn.addEventListener("click", () => {
-    points += 1;
-    note(`+1 punto de equipo. Total ${points}.`);
-    paint();
+  advance.addEventListener("click", () => {
+    const person = client();
+    if (person.stage >= CRM_STAGES.length - 1) return;
+    person.stage += 1;
+    points += 10;
+    showGain(10);
+    paintFacts();
+    paintStats();
   });
 
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const question = input.value.trim();
-    if (!question) return;
-    reply.textContent = crmReply(question, CRM_STAGES[index], points);
-    note(`Asistente respondió sobre “${question}”.`);
-    input.value = "";
+  contact.addEventListener("click", () => {
+    client().contact = "Ahora";
+    points += 4;
+    showGain(4);
+    paintFacts();
+    paintStats();
   });
+
+  paint();
 }
 
 bootCrmDemo();
