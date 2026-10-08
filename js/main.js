@@ -1048,3 +1048,90 @@ bootFormationAccordion();
 bootFormationLedgerPin();
 bootFolderRail();
 bootFolderFlipPin();
+
+// CRM desk state - one client, three stages, a team score, and canned assistant replies.
+const CRM_STAGES = ["Lead", "Propuesta", "Cerrada"];
+
+// Assistant replies - keyword match on the question, plus the live stage and score.
+function crmReply(question, stage, points) {
+  const q = question.toLowerCase();
+
+  if (/precio|costo|presupuesto|valor/.test(q)) {
+    return "El rango de Ana sigue en estudio. Si la pasás a Propuesta, el panel deja el número anotado en la ficha.";
+  }
+
+  if (/visita|turno|agenda|reun/.test(q)) {
+    return "Hay un hueco el jueves para recorrer el espacio de cowork. Lo dejo como próxima acción de la ficha.";
+  }
+
+  if (/estado|etapa|ficha/.test(q)) {
+    return `Ana Pérez está en ${stage}. El equipo lleva ${points} pts en esta mesa.`;
+  }
+
+  if (/punto|equipo|juego|gamif/.test(q)) {
+    return `La gamificación suma de a uno. Ahora la ficha tiene ${points} pts.`;
+  }
+
+  return "Puedo decir el estado, un rango de precio o un turno de visita. También podés mover la etapa o sumar un punto.";
+}
+
+// Demo handlers - advance the deal, add a point, ask the assistant, keep a short log.
+function bootCrmDemo() {
+  const root = document.querySelector("[data-crm-demo]");
+  if (!root) return;
+
+  const stages = [...root.querySelectorAll("[data-stage]")];
+  const pointsNode = root.querySelector("[data-crm-points]");
+  const advanceBtn = root.querySelector("[data-crm-advance]");
+  const pointBtn = root.querySelector("[data-crm-point]");
+  const form = root.querySelector("[data-crm-chat]");
+  const input = root.querySelector("[data-crm-input]");
+  const reply = root.querySelector("[data-crm-reply]");
+  const log = root.querySelector("[data-crm-log]");
+  let index = 0;
+  let points = 0;
+
+  const paint = () => {
+    stages.forEach((node, i) => {
+      node.classList.toggle("is-on", i === index);
+      node.classList.toggle("is-done", i < index);
+    });
+    pointsNode.textContent = String(points);
+    advanceBtn.textContent = index === CRM_STAGES.length - 1 ? "Reiniciar ficha" : "Pasar de etapa";
+  };
+
+  const note = (line) => {
+    const item = document.createElement("li");
+    item.textContent = line;
+    log.prepend(item);
+    while (log.children.length > 4) log.lastElementChild.remove();
+  };
+
+  advanceBtn.addEventListener("click", () => {
+    if (index < CRM_STAGES.length - 1) {
+      index += 1;
+      note(`Etapa actualizada: ${CRM_STAGES[index]}.`);
+    } else {
+      index = 0;
+      note("Ficha reiniciada en Lead.");
+    }
+    paint();
+  });
+
+  pointBtn.addEventListener("click", () => {
+    points += 1;
+    note(`+1 punto de equipo. Total ${points}.`);
+    paint();
+  });
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const question = input.value.trim();
+    if (!question) return;
+    reply.textContent = crmReply(question, CRM_STAGES[index], points);
+    note(`Asistente respondió sobre “${question}”.`);
+    input.value = "";
+  });
+}
+
+bootCrmDemo();

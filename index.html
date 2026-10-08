@@ -557,6 +557,50 @@
             flujo de trabajo, asistentes chatbots e integración con inteligencia
             artificial.
           </p>
+          <!-- CRM desk - one fake client, stage, points, and a local assistant -->
+          <div class="crm-demo" data-crm-demo>
+            <p class="crm-demo__kicker">Demo en vivo · una ficha</p>
+            <div class="crm-demo__head">
+              <p class="crm-demo__name">Ana Pérez</p>
+              <p class="crm-demo__meta">Campaña Mendoza · cowork</p>
+            </div>
+            <ol class="crm-demo__stages" data-crm-stages>
+              <li data-stage="Lead" class="is-on">Lead</li>
+              <li data-stage="Propuesta">Propuesta</li>
+              <li data-stage="Cerrada">Cerrada</li>
+            </ol>
+            <p class="crm-demo__score">
+              <span data-crm-points>0</span> pts de equipo
+            </p>
+            <div class="crm-demo__actions">
+              <button type="button" class="crm-demo__btn" data-crm-advance>
+                Pasar de etapa
+              </button>
+              <button type="button" class="crm-demo__btn" data-crm-point>
+                Sumar punto
+              </button>
+            </div>
+            <form class="crm-demo__chat" data-crm-chat>
+              <label class="crm-demo__label" for="crm-demo-ask">Asistente</label>
+              <div class="crm-demo__ask">
+                <input
+                  id="crm-demo-ask"
+                  type="text"
+                  name="ask"
+                  autocomplete="off"
+                  placeholder="Precio, visita o estado"
+                  data-crm-input
+                />
+                <button type="submit" class="crm-demo__btn crm-demo__btn--gold">
+                  Preguntar
+                </button>
+              </div>
+            </form>
+            <p class="crm-demo__reply" data-crm-reply aria-live="polite"></p>
+            <ul class="crm-demo__log" data-crm-log aria-live="polite">
+              <li>Mesa lista. Ana Pérez está en Lead.</li>
+            </ul>
+          </div>
         </article>
         <article class="filler filler--alt">
           <p class="filler__mark">04 / bosquegracias</p>
