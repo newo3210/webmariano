@@ -512,9 +512,9 @@
         <article class="filler filler--wide" data-fade-parallax>
           <h2 class="filler__title" data-fp-depth="90">Armado de Hardware exigente</h2>
           <p class="filler__text" data-fp-depth="170">
-            Modelos, tools, automatizaciones. No como magia: como instrumentos.
-            La IA entra al escenario igual que un sintetizador — afinada,
-            situada, al servicio del poema técnico.
+            Equipos informáticos armados a medida para exigencias en diseño,
+            edición, espacios de cowork, servidores independientes y servicios
+            de iA local.
           </p>
         </article>
         <article class="filler filler--alt filler--video" aria-label="Armado de Hardware exigente">
@@ -530,6 +530,71 @@
               <source src="design/vids/hardware.mp4" type="video/mp4" />
             </video>
           </figure>
+        </article>
+        <!-- CRM clip - second full-bleed video directly under the hardware reel -->
+        <article class="filler filler--alt filler--video" aria-label="CRM">
+          <figure class="filler__media">
+            <video
+              class="filler__video"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+            >
+              <source src="design/vids/crm.mp4" type="video/mp4" />
+            </video>
+          </figure>
+        </article>
+        <!-- Systems copy - title and paragraph directly under the CRM reel -->
+        <article class="filler filler--wide" data-fade-parallax>
+          <h2 class="filler__title" data-fp-depth="90">
+            Sistemas integrales, CRM, ERM y Chatbots
+          </h2>
+          <p class="filler__text" data-fp-depth="170">
+            Programación e instalación de sistemas personalizados, paneles de
+            administración, base de datos, clientes y ventas, gamificación del
+            flujo de trabajo, asistentes chatbots e integración con inteligencia
+            artificial.
+          </p>
+          <!-- Inserted CRM panel - fictional clients, tasks, score, and contact map -->
+          <div class="crm-demo" data-crm-demo>
+            <div class="crm-demo__bar">
+              <span class="crm-demo__brand">Ficha de cliente</span>
+              <span class="crm-demo__live">Demo ficticia</span>
+            </div>
+            <div class="crm-demo__switch" data-crm-switch role="tablist" aria-label="Clientes"></div>
+            <section class="crm-demo__card">
+              <h3 class="crm-demo__label">Información del cliente</h3>
+              <div class="crm-demo__identity">
+                <span class="crm-demo__avatar" data-crm-avatar></span>
+                <dl class="crm-demo__facts" data-crm-facts></dl>
+              </div>
+              <ul class="crm-demo__stats" data-crm-stats></ul>
+            </section>
+            <section class="crm-demo__card">
+              <h3 class="crm-demo__label">Tareas</h3>
+              <div data-crm-tasks></div>
+            </section>
+            <div class="crm-demo__actions">
+              <button type="button" class="crm-demo__btn crm-demo__btn--go" data-crm-advance>
+                Avanzar etapa
+              </button>
+              <button type="button" class="crm-demo__btn crm-demo__btn--stop" data-crm-contact>
+                Registrar contacto
+              </button>
+            </div>
+            <p class="crm-demo__flash" data-crm-flash aria-live="polite"></p>
+            <figure class="crm-demo__map">
+              <iframe
+                data-crm-map
+                title="Mapa de la zona de contacto"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <figcaption data-crm-zone></figcaption>
+            </figure>
+          </div>
         </article>
         <article class="filler filler--alt">
           <p class="filler__mark">04 / bosquegracias</p>
